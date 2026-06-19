@@ -22,7 +22,7 @@ const SITE = {
     about:       "Специализируюсь на ручном тестировании, API-проверках и автоматизации дымовых сценариев. Быстро нахожу слабые места, превращаю проверки в понятные чек-листы и помогаю команде видеть состояние качества до выхода в продакшн.",
     contactText: "Ищете QA-инженера или хотите обсудить проект? Напишите — отвечу быстро.",
     avatar:      "",      // ← URL фото (https://...) или оставь "" для плейсхолдера
-    cv:          "#",     // ← ссылка на PDF резюме
+    cv:          "https://docs.google.com/document/d/1AYurutyTgVLET6G4ExpxvDOJMHwIvS8NL_GWQ6veaFA/edit?usp=sharing",     // ← ссылка на PDF резюме
  
     contacts: [
       { label: "Email",    value: "wsfgcyhhj@gmail.com",            href: "mailto:wsfgcyhhj@gmail.com" },
@@ -93,15 +93,7 @@ const SITE = {
         { label: "Чек-лист",   href: "https://docs.google.com/spreadsheets/d/1mzbcCmYDxw2LsYtRQubqsqpOotFKwR756BWAa1ZBcBg/edit?gid=1824314626#gid=1824314626" },
       ],
     },
-    {
-      title:       "API Suite · Заглушка",
-      period:      "2025",
-      type:        "API",
-      result:      "Заглушка — добавь данные в portfolio.config.js → projects[]",
-      description: "Заглушка.",
-      approaches:  ["PyTest","Postman","CI/CD","Swagger"],
-      links: [],
-    },
+    
   ],
 };
  
